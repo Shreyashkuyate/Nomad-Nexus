@@ -1,0 +1,54 @@
+.profile{
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.profile-frame{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.profile-pic{
+    height: fit-content;
+}
+
+.profile-pic > img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.profile-data{
+    text-align: left;
+    
+
+}
+
+h1{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 0;
+}
+
+p{
+    padding: 0px 10px;
+    padding-left: 30px;
+    font-size: large;
+}
+
+ .profile-info{
+    padding: 0px 10px; 
+ }
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+} 
+
+.gallery > img{
+    width: 30%;
+    margin: 10px;
+}

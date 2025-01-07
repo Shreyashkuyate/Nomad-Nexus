@@ -1,0 +1,34 @@
+.signIn{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/031/624/350/small_2x/background-for-productgraphy-ai-generated-photo.jpg");
+    background-size: cover;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm{
+background-color:antiquewhite ;
+ padding: 30px;
+ border: 1px solid #ccc;
+ border-radius: 1px;
+}
+
+.loginForm2{
+    background-color: antiquewhite;
+padding: 30px;
+margin-top: 5px;
+border: #4CAF50;
+border-radius: 1px;
+}
+
+#login-btn{
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 8px;
+}
