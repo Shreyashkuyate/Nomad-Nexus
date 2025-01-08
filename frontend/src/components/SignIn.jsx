@@ -25,7 +25,7 @@ const emailRegex=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     return
   }
       //sending data to server
-      fetch("http://localhost:5000/signin", {
+      fetch("https://nomad-nexus.onrender.com/signin", {
         method: 'post',
         headers:{
             "Content-Type":"application/json"

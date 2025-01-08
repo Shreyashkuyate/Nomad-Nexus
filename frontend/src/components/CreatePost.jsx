@@ -17,7 +17,7 @@ const navigate = useNavigate()
   useEffect(() =>{
 if(url){
 //saving post to monogoDB
-fetch("http://localhost:5000/createPost",{
+fetch("https://nomad-nexus.onrender.com/createPost",{
   method:"post",
   headers:{
     "Content-type":"application/json",

@@ -31,7 +31,7 @@ if(!emailRegex.test(email)){
 }
 
     //sending data to server
-    fetch("http://localhost:5000/signup", {
+    fetch("https://nomad-nexus.onrender.com/signup", {
       method: 'post',
       headers:{
           "Content-Type":"application/json"

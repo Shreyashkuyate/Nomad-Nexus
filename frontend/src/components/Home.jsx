@@ -15,7 +15,7 @@ useEffect(() => {
   }
 
   // Fetching all post
-fetch("http://localhost:5000/allposts",{
+fetch("https://nomad-nexus.onrender.com/allposts",{
   headers:{
     "Authorization":"Bearer "+ localStorage.getItem("jwt")
   },
